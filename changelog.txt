@@ -1,2 +1,6 @@
+v1.0.1
+#fixed crash on pad drag&drop for certain layer play modes
+#fixed ring mod behaviour
+
 v1.0.0
 initial version
