@@ -1,3 +1,6 @@
+v1.0.2
+#fixed some licensing issues
+
 v1.0.1
 #fixed crash on pad drag&drop for certain layer play modes
 #fixed ring mod behaviour
