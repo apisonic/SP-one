@@ -1,3 +1,8 @@
+v1.0.3
++ added DEMO indication
+# fixed random crash during layer operations
+# fixed minor gui improvements
+
 v1.0.2
 #fixed some licensing issues
 
