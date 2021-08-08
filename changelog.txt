@@ -1,19 +1,27 @@
+v1.0.5
++ added ctrl/command + click on a layout button ( A / B / AB ) selects all pads from that layout
++ added MIDI-IN LED indicator in the header
+# improved multi-selection copy/swap
+# improved Speedrum Lite drum kit import
+# improved Poise drum kit import
+# fixed "Select Pad With MIDI Note" behavior
+
 v1.0.4
 + added delete layer(s) with shift + click on a layer button (number)
-# improved layer sample audio preview - treba ispraviti u User guide 
+# improved layer sample audio preview
 # fixed cutting the pads with different layer modes
 
 v1.0.3
 + added DEMO indication
 # fixed random crash during layer operations
-# fixed minor gui improvements
+# minor gui improvements
 
 v1.0.2
-#fixed some licensing issues
+# fixed some licensing issues
 
 v1.0.1
-#fixed crash on pad drag&drop for certain layer play modes
-#fixed ring mod behaviour
+# fixed crash on pad drag&drop for certain layer play modes
+# fixed ring mod behaviour
 
 v1.0.0
 initial version
