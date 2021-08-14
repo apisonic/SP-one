@@ -1,3 +1,14 @@
+v1.0.6
++ added "Note On" PlayMode, PlayMode can be changed from pad's right-click menu
++ added Release knob for pad's Volume envelope, enabled in "Note On" PlayMode
++ added save kit button, enabled if kit was changed
++ added alt/option + left (right) click on a Pad will mute (solo) selected pads
++ added option to open sample file in the external audio editor
++ added button to reload sample file
++ added button to load random sample file from current folder
+# improved moving/adding the layer(s)
+# fixed gui colors if multiple instances of a plugin was loaded
+
 v1.0.5
 + added ctrl/command + click on a layout button ( A / B / AB ) selects all pads from that layout
 + added MIDI-IN LED indicator in the header
