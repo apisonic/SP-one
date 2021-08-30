@@ -1,3 +1,14 @@
+v1.0.7
++ preferences - added toggle for play pad on click
++ preferences - added toggle for preview layer on click
+# improved pads drag&drop (probably fixed crash on Linux)
+# improved search for missing sample files
+# changed mod key for mute/solo (+ click on Pad) to Shift 
+# fixed layers multi-selection behavior after swap
+# fixed pad name not refreshed after prev/next/random
+# Linux - fixed not using .config folder for some settings files
+# Mac/Linux - fixed sample files in active folder not alphabetically sorted for prev/next
+
 v1.0.6
 + added "Note On" PlayMode, PlayMode can be changed from pad's right-click menu
 + added Release knob for pad's Volume envelope, enabled in "Note On" PlayMode
