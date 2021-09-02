@@ -1,3 +1,6 @@
+v1.0.7.1
+# fixed layer/pad delete (introduced in 1.0.7)
+
 v1.0.7
 + preferences - added toggle for play pad on click
 + preferences - added toggle for preview layer on click
