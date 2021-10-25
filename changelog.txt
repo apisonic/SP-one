@@ -1,43 +1,83 @@
-v1.0.7.1
-# fixed layer/pad delete (introduced in 1.0.7)
+v1.1.0
++ SLICER for slicing loops into individual drum hits, with Transients and BPM modes
++ [Layer] Slice mode (slice from selection)
++ [Layer] Export Slice as new wav sample file (optional reload)
++ [Layer] preview with click on a selected area
++ [Layer] channel mode for stereo samples - mono, left, right
++ [Layer] normalization - 0dB, -3dB, -6dB
++ [Layer] offset knob set to nonlinear and resolution to 0.01ms for fine-tuning
++ [Layer] double-click on a sample/loop name will open Browser and select that file
++ [Layer] autoplay on sample file change (prev/next/random)
++ [Layer] zoom to selected area with Alt/Option + double-click on a ruler
++ [Preferences] default pad color 
++ [Preferences] Layer S/E Auto fade (default)
++ [Preferences] Midi number option on Show on Pads
++ [velocity editor] Invert
++ [velocity editor] Remove overlaps
++ [Browser] preview panel Auto switch
++ [Browser] preview audio channel
++ Size button for easier resizing
+# [Layer] mouse click modifier to delete the layer, changed from Shift to Alt/Option
+# improved overall stability
+# improved saving drumkits with samples in case of different samples with same file names
+# Preferences panel reorganized
+# improved Browser drag&drop behavior
+# improved Pads and Layers drag&drop behavior
+# updated Pads drag&drop graphic
+# layer velocity, phase and offset will no longer reset when replacing the sample
+# removed pads humanization for layer preview
+# improved drumkit change detection
+# the activation window (demo) will only be displayed on the new instance
+# fixed crash when reloading a kit with all pads having samples
+# fixed Release knob state on Play Mode change
+# fixed restore state for pad active layer number
+# fixed pads multi-editing for VoiceMode, Trigger, Cut, CutBy
+# fixed Layers multi-editing
+# fixed maximum number of files that can be dropped on pads at once
+# fixed color repaint to controls on reset pad
+# fixed color repaint on Setup with multi-selection
+# fixed knobs behavior when mouse buttons are swapped
+# fixed setting of active layer if files are missing when loading drumkit
+# fixed cut off layer preview when the pad play start
+# [Linux] fixed saving drumkit with the file extension
 
 v1.0.7
-+ preferences - added toggle for play pad on click
-+ preferences - added toggle for preview layer on click
++ [Preferences] toggle for play pad on click
++ [Preferences] toggle for preview layer on click
 # improved pads drag&drop (probably fixed crash on Linux)
 # improved search for missing sample files
 # changed mod key for mute/solo (+ click on Pad) to Shift 
 # fixed layers multi-selection behavior after swap
 # fixed pad name not refreshed after prev/next/random
-# Linux - fixed not using .config folder for some settings files
-# Mac/Linux - fixed sample files in active folder not alphabetically sorted for prev/next
+# [Linux] - fixed not using .config folder for some settings files
+# [MacOS/Linux] - fixed sample files in active folder not alphabetically sorted for prev/next
 
 v1.0.6
-+ added "Note On" PlayMode, PlayMode can be changed from pad's right-click menu
-+ added Release knob for pad's Volume envelope, enabled in "Note On" PlayMode
-+ added save kit button, enabled if kit was changed
-+ added alt/option + left (right) click on a Pad will mute (solo) selected pads
-+ added option to open sample file in the external audio editor
-+ added button to reload sample file
-+ added button to load random sample file from current folder
++ "Note On" PlayMode, PlayMode can be changed from pad's right-click menu
++ Release knob for pad's Volume envelope, enabled in "Note On" PlayMode
++ save kit button, enabled if kit was changed
++ Alt/Option + left (right) click on a Pad will mute (solo) selected pads
++ option to open sample file in the external audio editor
++ button to reload sample file
++ button to load random sample file from current folder
 # improved moving/adding the layer(s)
 # fixed gui colors if multiple instances of a plugin was loaded
 
 v1.0.5
-+ added ctrl/command + click on a layout button ( A / B / AB ) selects all pads from that layout
-+ added MIDI-IN LED indicator in the header
++ ctrl/command + click on a layout button ( A / B / AB ) selects all pads from that layout
++ MIDI-IN LED indicator in the header
 # improved multi-selection copy/swap
 # improved Speedrum Lite drum kit import
 # improved Poise drum kit import
 # fixed "Select Pad With MIDI Note" behavior
 
 v1.0.4
-+ added delete layer(s) with shift + click on a layer button (number)
++ delete layer(s) with shift + click on a layer button (number)
 # improved layer sample audio preview
 # fixed cutting the pads with different layer modes
 
 v1.0.3
-+ added DEMO indication
++ DEMO indication
 # fixed random crash during layer operations
 # minor gui improvements
 
