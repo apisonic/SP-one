@@ -1,3 +1,13 @@
+v1.1.1
++ stop all sound button
++ [Browser] Enter key will load selected drumkit
++ [Browser] Enter key will load sample/loop in visible tab (LAYERS or SLICER)
+# [Browser] RightArrow key will preview selected sample/loop
+# fixed showing that kit is changed after kit loading
+# fixed Preferences panel blocks access to controls when open
+# fixed Layer pitch behavior when Tiny Auto Fade is off
+# fixed saving imported kits
+
 v1.1.0
 + SLICER for slicing loops into individual drum hits, with Transients and BPM modes
 + [Layer] Slice mode (slice from selection)
