@@ -1,3 +1,11 @@
+v1.1.2
++ saving pad state even without layers to the drumkit for easily creating templates
++ more shortcuts for setting the number of output channels (main menu)
++ [Layer] envelope Attack/Decay states remain when toggle Slice
+# more info for browser bottom controls
+# fixed crash when clicking on empty Slicer after opening menu
+# fixed distortion at the end of the slice in some cases
+
 v1.1.1
 + stop all sound button
 + [Browser] Enter key will load selected drumkit
