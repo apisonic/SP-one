@@ -1,3 +1,32 @@
+v1.2.0
++ [Pads] export render to file (with maximum velocity, ignore Humanization)
++ [Pads] the ability to replace Layers with rendered sample after exporting the render
++ [Pads] select multiple with mouse right-button drag, add to selection holding Ctrl/Command while dragging
++ [Pads] reset the Pad(s) with the middle-click
++ updated Pad main controls panel, added PlayMode and draggable waveform-button
++ [Windows, MacOS] drag waveform-button to export rendering to other Pad or outside Speedrum (DAW or folder)
++ [Linux] drag waveform-button to export rendering to other Pad
++ [Layer] Mute and Solo for Layers 
++ [Layer] Shift + left/right click on a Layer button to Mute/Solo Layer(s) (same behavior as on Pads)
++ [Layer] Ctrl/Command + right-click on any layer button will select all layers
++ [Layer] delete the Layer(s) with the middle-clcik
++ [Layer] indicators when the mouse is over S/E and A/D, for better visibility of what is active
++ [Layer] move selection S/E left right with Alt/Option + drag
++ [Layer] holding Alt/Option while prev/next/rand in a folder will try to preserve S/E/A/D state
++ [Layer] render to file (ignore Pad params), with the option to reload rendered afterwards
++ [Setup] midi note number on the pad trigger button
++ [Setup] right-click on a trigger button to enter midi note number manually to all selected
++ [Setup] option to specify a project folder, used when drag&drop rendering to DAW (overrides Preferences)
++ [Preferences] option to specify default folder for intermediate files when drag&drop rendering to DAW or Pad/Layer
+# left-click (without Ctrl/Command) on the Pad/Layer will remove Pads/Layers multi-selection
+# updated info for S/E and A/D
+# small dsp optimizations
+# fixed right-arrow key behavior on folders in Browser
+# fixed applying command from Pad's menu to multi-selection
+# fixed Alt/Option + drag copying selected Layers to another Pad
+# fixed crash when duplicating Layers with all slots already populated
+# fixed crash when loading a corrupted drum-kit
+
 v1.1.2
 + saving pad state even without layers to the drumkit for easily creating templates
 + more shortcuts for setting the number of output channels (main menu)
