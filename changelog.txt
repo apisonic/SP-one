@@ -1,3 +1,12 @@
+v1.2.1
++ "Split (rise)" in Velocity editor menu
+# improved Layer Play Mode system
+# fixed split velocities sometimes didn’t work well
+# fixed behavior of Round Robin and Random in Layer Play Mode
+# fixed Layer Play Mode when pad is in Poly mode
+# fixed possible crash when changing sample while pad is in Poly mode
+# [Linux] fixed inability to change menu item
+
 v1.2.0
 + [Pads] export render to file (with maximum velocity, ignore Humanization)
 + [Pads] the ability to replace Layers with rendered sample after exporting the render
