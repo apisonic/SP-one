@@ -1,3 +1,8 @@
+v1.2.2
+# fixed changing the sample causes the inability to control the layer
+# fixed pad triggered from other pad does not respect layer play mode
+# fixed Trigger from the right-click pad menu showing only 16 pads
+
 v1.2.1
 + "Split (rise)" in Velocity editor menu
 # improved Layer Play Mode system
