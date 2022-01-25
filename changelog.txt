@@ -1,3 +1,8 @@
+1.2.3
+# fixed random freeze when changing sample while playing
+# improved saving state with AU format on some hosts
+# [Linux] fixed rare crash when opening plugin GUI
+
 v1.2.2
 # fixed changing the sample causes the inability to control the layer
 # fixed pad triggered from other pad does not respect layer play mode
