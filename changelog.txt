@@ -1,3 +1,11 @@
+1.3.1
++ [Browser] toggle to autoload selected sample to active editor (like with Enter key)
+# [Browser] fixed preview volume behavior for first preview after opening
+# improved saving/loading of plugin state
+# fixed not saving state in rare cases
+# fixed loading saved state if the plugin was bypassed/disabled in the host
+# dsp optimizations
+
 1.3.0
 + Sends/Master tab
 + [Sends] Delay
@@ -17,6 +25,7 @@
 + [Knobs] option to hide mouse cursor on knobs (Preferences)
 + [Knobs] ability to enter values via the knob menu
 + [Knobs] touching a knob on a disabled section will enable that section
++ [Knobs] fine adjustment for the mouse wheel with shift key modifier
 # [Layers] removed Velocity play mode (due to option to use it in all modes)
 # [Drumkit] updated to v4 (breaking old automation from host!) with numerous changes/addons
 # volume values changed to be in decibels
