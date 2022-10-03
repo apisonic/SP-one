@@ -1,3 +1,37 @@
+1.4.0
++ [Layer] time/pitch stretching
++ [Layer] beats marker on waveform editor
++ [Layer] reverse/normalize/channels as gui controls
++ [Layer] trimming (multiple slicing) (if not stretch/reverse)
++ [Slicer] time/pitch stretching
++ [Slicer] updated gui controls for faster parameter changing
++ [Slicer] autoplay toggle
++ [Pad] import/export
++ [Pad] locking the pad also effect reset/delete and New DrumKit
++ [Drumkit] new Save As dialog with info and cover import
++ [Drumkit] the possibility of saving the Pads Midi Map and auto loading in the map menu
++ [Drumkit] Geist2 drumkit basic import
++ [Drumkit] SFZ drumkit basic import
++ [Preferences] option to set SaveKit button action
++ [Preferences] option to import SFZ group as layers
++ global volume knob
++ changing velocity values on all selected layers at once
+# [Drumkit] Poise drum kit import improved
+# [Layer] Slice mode changed to trimming (multiple slicing)
+# improved speed of move/copy for pad/layer/slice
+# velocity to pitch parameter expanded to bidirectional
+# velocity to filter cut parameter expanded to bidirectional
+# fixed possible crash if loading pad with more than 8 layers
+# fixed crash when rapidly switching next/previous sample while playing
+# fixed crash/distortion in FL Studio when changing layer controls while playing
+# fixed exclusive random layers play mode behavior when there is only one layer
+# fixed PlayMode parameter not applied after loading the kit
+# fixed adding sounds after pad reset behavior
+# fixed sample rate distortion behavior
+# fixed display of target pads for alt modifier key
+# fixed pitch env label on resize
+# fixed SaveKit button not enabled after reopening gui
+
 1.3.1
 + [Browser] toggle to autoload selected sample to active editor (like with Enter key)
 # [Browser] fixed preview volume behavior for first preview after opening
