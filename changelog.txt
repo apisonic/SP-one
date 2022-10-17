@@ -1,8 +1,15 @@
+1.4.2
++ [Ruler] playhead (as moving line)
+# fixed Layer duplication from the menu
+# fixed Layer volume set to -inf when loading v3 or older kit
+# fixed behavior of sends outputs on GUI reopening
+# fixed possible crash when autoloading from Browser in Slicer
+
 1.4.1
 # fixed Slice button coloring behavior
 # fixed stretching of the sliced layer
 # fixed Slicer behavior when autoplay is off
-# fixed droping slice from Slicer to Pad and moving sliced layer
+# fixed dropping slice from Slicer to Pad and moving sliced layer
 # fixed SFZ importer not importing maximum (32) number of samples
 
 1.4.0
