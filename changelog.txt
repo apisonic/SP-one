@@ -1,3 +1,10 @@
+1.4.3
++ [Slicer] sync slicing bpm to free/host/stretch bpm
++ knob value editor directly on the context menu
+# fixed manual value entry for the knob
+# fixed individual outputs not working on VST3 in some hosts
+# fixed Sends output mode
+
 1.4.2
 + [Ruler] playhead (as moving line)
 # fixed Layer duplication from the menu
