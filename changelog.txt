@@ -1,3 +1,11 @@
+1.4.4
++ [Preferences] playhead position options (hidden, on ruler, on waveform)
++ [Waveform] the preview volume corresponds to the position of the mouse pointer (as on a Pad)
+# numerous gui optimizations
+# fixed pad rendering behavior
+# fixed playhead behavior for different sample samplerate
+# fixed Browser autoplay state not being remembered
+
 1.4.3
 + [Slicer] sync slicing bpm to free/host/stretch bpm
 + knob value editor directly on the context menu
