@@ -1,3 +1,11 @@
+1.4.5
++ possibility to delete Pads midi map
+# fixed setting default Pads midi map
+# fixed all pads are set to midi note 0 on load state
+# fixed behavior of saving drumkit with samples
+# fixed possible crash when menu is open
+
+
 1.4.4
 + [Preferences] playhead position options (hidden, on ruler, on waveform)
 + [Waveform] the preview volume corresponds to the position of the mouse pointer (as on a Pad)
