@@ -1,10 +1,18 @@
+1.4.6
+# improved pad animation to better reflect the playing/processing state 
+# [linux] reduced plugin file size
+# [linux] fixed crash if both vst and vst3 versions are loaded
+# fixed playhead behavior when host is in play state
+# fixed possible crash when copying a pad (drag and drop) while holding the ctrl/command key
+# fixed window resizing behavior
+# fixed waveform update
+
 1.4.5
 + possibility to delete Pads midi map
 # fixed setting default Pads midi map
 # fixed all pads are set to midi note 0 on load state
 # fixed behavior of saving drumkit with samples
 # fixed possible crash when menu is open
-
 
 1.4.4
 + [Preferences] playhead position options (hidden, on ruler, on waveform)
