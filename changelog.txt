@@ -1,3 +1,11 @@
+1.4.7
++ [Setup] midi cc map list, with deletion of individual ones
+# fixed MIDI mapping behavior of Layer knobs
+# fixed the possibility that midi unlearn cannot be done in rare cases
+# fixed possible crash when Layer is in background processing (like stretching)
+# fixed crash when changing parameter during pad multi selection
+# [linux] fixed the gui not opening in rare cases
+
 1.4.6
 # improved pad animation to better reflect the playing/processing state 
 # [linux] reduced plugin file size
