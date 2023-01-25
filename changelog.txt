@@ -1,3 +1,13 @@
+1.4.8
++ SpeedrumBeat drumkit import
+# removed awsd keyboard shortcuts for pads
+# fixed cut, copy, paste keyboard shortcuts for pads
+# fixed retaining the layer envelope state while changing the sample via prev/next button + alt/option key 
+# fixed browser button behavior in some cases
+# fixed controls color on copy/paste
+# fixed copied stretched layer has wrong start/end values
+# dsp optimizations
+
 1.4.7
 + [Setup] midi cc map list, with deletion of individual ones
 # fixed MIDI mapping behavior of Layer knobs
