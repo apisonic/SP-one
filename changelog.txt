@@ -1,3 +1,6 @@
+1.4.9
+# fixed crash on certain actions immediately after loading the kit
+
 1.4.8
 + SpeedrumBeat drumkit import
 # removed awsd keyboard shortcuts for pads
