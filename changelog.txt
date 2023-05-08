@@ -1,3 +1,22 @@
+1.5.0
++ [Drumkit] new loading system (background)
++ [Drumkit] new search for missing samples system 
++ new info/alert system
++ [MIDI] cc learn for layer editor start/end sliders
++ [MIDI] cc learn for parameter toggle buttons (mute, solo, section...)
++ [MIDI] cc learn for some action buttons (prev/next/random, slice...)
++ [Preferences] option to show output channel on the pad
+# improved cut, copy, paste with keyboard shortcuts
+# improved import/export pad
+# fixed "respect velocity" behavior on round-robin and random modes
+# fixed switching the layer editor view (clicking on the layer button) while layer is being processed
+# fixed browser focus on opening
+# fixed move/copy layer behavior
+# fixed layer mute button behavior
+# fixed possible misbehavior with layer button drag&drop 
+# fixed minor gui problems + small optimizations
+# [macos] new minimum 10.11 (from 10.9)
+
 1.4.9
 # fixed crash on certain actions immediately after loading the kit
 
@@ -9,6 +28,7 @@
 # fixed browser button behavior in some cases
 # fixed controls color on copy/paste
 # fixed copied stretched layer has wrong start/end values
+# [windows] fixed win7 compatibility
 # dsp optimizations
 
 1.4.7
