@@ -1,3 +1,7 @@
+1.5.1
+# fixed sample paths when resaving kit multiple times with samples
+# fixed ignoring snap with alt/option key modifier on konbs
+
 1.5.0
 + [Drumkit] new loading system (background)
 + [Drumkit] new search for missing samples system 
