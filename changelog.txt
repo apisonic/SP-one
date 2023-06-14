@@ -1,3 +1,7 @@
+1.5.2
+# fixed browser file filtering
+# fixed filter mode when copying pads
+
 1.5.1
 # fixed sample paths when resaving kit multiple times with samples
 # fixed ignoring snap with alt/option key modifier on konbs
