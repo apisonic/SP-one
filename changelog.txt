@@ -1,3 +1,10 @@
+1.5.3
+# fixed possible crash when importing invalid kit
+# fixed possible losing sample paths in case of loading-saving state without opening gui when there are missing samples
+# fixed Geist kit loading with relative sample paths
+# fixed hiding cursor on velocity slider
+# fixed freezing of vu meters
+
 1.5.2
 # fixed browser file filtering
 # fixed filter mode when copying pads
